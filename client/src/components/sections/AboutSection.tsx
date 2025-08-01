@@ -3,7 +3,7 @@ export default function AboutSection() {
     <section id="sobre" className="h-screen bg-gray-50 flex items-center justify-center py-20">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold font-poppins text-secondary mb-6">
             Sobre a PuggyWare
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
@@ -13,7 +13,7 @@ export default function AboutSection() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="text-center p-8 bg-white rounded-2xl shadow-sm">
+          <div className="text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-200">
             <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">🎯</span>
             </div>
@@ -21,7 +21,7 @@ export default function AboutSection() {
             <p className="text-gray-600">Cada projeto é único e merece atenção personalizada para atender suas necessidades específicas.</p>
           </div>
 
-          <div className="text-center p-8 bg-white rounded-2xl shadow-sm">
+          <div className="text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-200">
             <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">⚡</span>
             </div>
@@ -29,7 +29,7 @@ export default function AboutSection() {
             <p className="text-gray-600">Sempre em busca das tecnologias mais avançadas para entregar soluções de ponta.</p>
           </div>
 
-          <div className="text-center p-8 bg-white rounded-2xl shadow-sm">
+          <div className="text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-200">
             <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">🤝</span>
             </div>
