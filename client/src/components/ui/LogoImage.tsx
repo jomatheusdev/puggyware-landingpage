@@ -17,8 +17,8 @@ export default function LogoImage({ size = 'md', className = '', interactive = f
 
   const { width, height, className: sizeClass } = sizeMap[size];
 
-  return (
-    <div className={`${interactive ? 'logo-container' : ''} ${sizeClass} ${className}`}>
+  return (    
+    <div className={`${interactive ? 'logo-container hover:scale-110 transition-transform duration-200 cursor-pointer' : ''} ${sizeClass} ${className}`}>
       <Image
         src={LogoPng}
         alt="PuggyWare Logo"

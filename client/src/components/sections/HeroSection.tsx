@@ -38,7 +38,7 @@ export default function HeroSection() {
             </button>
             <button
               onClick={scrollToContact}
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-secondary hover:shadow-xl hover:scale-105 active:scale-95 active:shadow-md transition-all duration-200 transform cursor-pointer"
+              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-gray-900 hover:shadow-xl hover:scale-105 active:scale-95 active:shadow-md transition-all duration-200 transform cursor-pointer"
             >
               Fale Conosco
             </button>
