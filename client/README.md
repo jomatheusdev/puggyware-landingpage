@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PuggyWare - Landing Page
 
-## Getting Started
+Landing page moderna e responsiva para a empresa de tecnologia PuggyWare, desenvolvida com Next.js 15, TypeScript e Tailwind CSS.
 
-First, run the development server:
+## 🎨 Design System
+
+### Cores
+- **Primária (Ciano Tecnológico)**: `#00B2B2`
+- **Secundária (Azul Petróleo Escuro)**: `#012B39`
+- **Gradiente**: `linear-gradient(90deg, #00B2B2 0%, #012B39 100%)`
+
+### Características
+- Design responsivo e moderno
+- Logo customizada com elementos de IA
+- Seções: Hero, Sobre, Serviços, CTA e Footer
+- Navegação suave entre seções
+- Otimizada para performance e SEO
+
+## 🚀 Getting Started
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── globals.css      # Estilos globais e variáveis CSS
+│   ├── layout.tsx       # Layout principal
+│   └── page.tsx         # Landing page
+└── components/
+    └── Logo.tsx         # Componente de logo reutilizável
+```
 
-## Learn More
+## 🛠 Tecnologias
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 15** - Framework React
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS v4** - Framework CSS
+- **React 19** - Biblioteca de UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Seções da Landing Page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Header** - Navegação fixa com logo e menu
+2. **Hero** - Apresentação principal com CTA
+3. **Sobre** - Informações da empresa e valores
+4. **Serviços** - Cards com principais ofertas
+5. **CTA** - Chamada para ação final
+6. **Footer** - Contato e informações adicionais
