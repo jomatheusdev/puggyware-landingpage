@@ -1,6 +1,6 @@
 export default function ServicesSection() {
   return (
-    <section id="servicos" className="w-screen h-screen bg-white flex items-center justify-center py-20">
+    <section id="servicos" className="w-screen h-screen bg-white flex items-center justify-center py-20 select-none">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-poppins text-secondary mb-6">
